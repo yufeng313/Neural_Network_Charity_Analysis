@@ -21,7 +21,7 @@ Software: Python 3.7.6 ,  Jupyter Notebook 6.4.8
 ### Compile, Train, and Evaluate the Model
 Design a neural network, or deep learning model, to create a binary classification model that can predict if an Alphabet Soup–funded organization will be successful based on the features in the dataset, and then compile, train, and evaluate your binary classification model to calculate the model’s loss and accuracy.<br/>
 - Q: How many neurons, layers, and activation functions did you select for your neural network model, and why?<br/>
-  A: There are 80 neurons in layer 1, 30 neurons in layer 2, 1 neuron in the output layer, total 3 layers, within each layer, layer 1 and 2 use relu function, output layer use sigmoid function.
+  A: There are 80 neurons in layer 1, 30 neurons in layer 2, 1 neuron in the output layer, total 3 layers, within each layer, layer 1 and 2 use "relu" function, output layer use "sigmoid" function.
   ![initial neural network](https://user-images.githubusercontent.com/107179765/196010750-cecd97d8-e830-4313-99fa-3c384a6f398c.png)
 - Q: Were you able to achieve the target model performance?<br/>
   A: With an accuracy score of 0.725, I wasn’t able to achieve the target model performance of 75%.
@@ -41,5 +41,5 @@ Design a neural network, or deep learning model, to create a binary classificati
   ![attempt3 accuracy](https://user-images.githubusercontent.com/107179765/196010823-4ed541b8-749c-4f4f-9531-63b98708daaf.png)
 
 ## Summary
-From the results above, the machine learning model ended up with an accuracy score of 72.6% after optimization, while the initial neural network had an accuracy score of 72.5%, so there is no significantly improvement after optimization as we can see.
-
+From the results above, the machine learning model ended up with an accuracy score of 72.6% after optimization, while the initial neural network had an accuracy score of 72.5%, so there is no significantly improvement after optimization as we can see.<br/>
+Since we are in a binary classification situation, we could use a supervised machine learning model such as the Random Forest Classifier to combine a multitude of decision trees to generate a classified output and evaluate its performance against our deep learning model. A random forest model with a sufficient number of estimators and tree depth should be able to perform at a similar capacity to most deep learning models with less code and faster performance.
